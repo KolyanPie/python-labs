@@ -108,7 +108,7 @@ def task_7():
         else:
             continue
         n += 1
-        if x == 0 & y == 0:
+        if x == 0 and y == 0:
             break
         s = input()
     while s != 'стоп':

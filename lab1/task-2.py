@@ -113,7 +113,7 @@ def task_3():
 def task_4():
     first = input()
     second = input()
-    if (re.fullmatch(r'да|нет', first) is not None) & (re.fullmatch(r'да|нет', second) is not None):
+    if (re.fullmatch(r'да|нет', first) is not None) and (re.fullmatch(r'да|нет', second) is not None):
         print('ВЕРНО')
     else:
         print('НЕВЕРНО')
